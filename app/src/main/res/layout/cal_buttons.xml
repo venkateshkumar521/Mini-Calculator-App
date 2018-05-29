@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:layout_margin="2dp">
+
+    <Button
+        android:id="@id/btn_clear"
+        android:text="@string/clear"
+        style="@style/FunctionalButtons"
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:id="@+id/btn_Mod"
+        style="@style/FunctionalButtons"
+        android:layout_column="1"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="0"
+        android:text="@string/perc" />
+    <Button
+        android:id="@id/btn_divide"
+        android:text="@string/div"
+        style="@style/FunctionalButtons"
+        android:layout_column="2"
+        android:layout_row="0"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Multiply"
+        android:text="@string/x"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="0"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <!--second line of buttons-->
+
+    <Button
+        android:id="@id/btn_seven"
+        android:text="@string/_7"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Eight"
+        android:text="@string/_8"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:id="@id/btn_Nine"
+        android:text="@string/_9"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="1"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:id="@+id/btn_Sub"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="1"
+        android:text="@string/sub" />
+
+    <!--third line of buttons-->
+    <Button
+        android:id="@id/btn_Four"
+        android:text="@string/_4"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Five"
+        android:text="@string/_5"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_six"
+        android:text="@string/_6"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Add"
+        android:text="@string/add"
+        style="@style/FunctionalButtons"
+        android:layout_column="3"
+        android:layout_row="2"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <!--Third line of buttons-->
+    <Button
+        android:id="@id/btn_one"
+        android:text="@string/_1"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Two"
+        android:text="@string/_2"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Three"
+        android:text="@string/_3"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_Equals"
+        android:text="@string/Equal"
+        style="@style/EqualButtons"
+        android:layout_column="3"
+        android:layout_row="3"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_gravity="fill_vertical"
+        android:layout_rowSpan="2"
+
+        />
+
+<!--fourth line of buttons-->
+    <Button
+        android:id="@id/btn_dot"
+        android:text="@string/dot"
+        style="@style/NumberButtons"
+        android:layout_column="0"
+        android:layout_row="4"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+    <Button
+        android:id="@id/btn_zero"
+        android:text="@string/_0"
+        style="@style/NumberButtons"
+        android:layout_column="1"
+        android:layout_row="4"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        />
+
+    <Button
+        android:id="@+id/btn_zeroo"
+        style="@style/NumberButtons"
+        android:layout_column="2"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_row="4"
+        android:text="00" />
+
+
+
+
+</GridLayout>

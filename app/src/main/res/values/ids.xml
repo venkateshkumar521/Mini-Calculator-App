@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn_clear" type="id" />
+    <item name="btn_divide" type="id" />
+    <item name="btn_Multiply" type="id" />
+    <item name="btn_seven" type="id" />
+    <item name="btn_six" type="id" />
+    <item name="btn_Eight" type="id" />
+    <item name="btn_Nine" type="id" />
+    <item name="btn_Four" type="id" />
+    <item name="btn_Fiver" type="id" />
+    <item name="btn_Five" type="id" />
+    <item name="btn_Add" type="id" />
+    <item name="btn_one" type="id" />
+    <item name="btn_Two" type="id" />
+    <item name="btn_Three" type="id" />
+    <item name="btn_Equals" type="id" />
+    <item name="btn_dot" type="id" />
+    <item name="btn_zero" type="id" />
+</resources>
